@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech Precision | Sustentabilidade Planetária</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header role="banner">
+        <div class="header-container">
+            <div class="header-left">
+                <button id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-label="Abrir menu de navegação e recursos" class="menu-hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <div class="logo">
+                    <h1 class="graffiti-3d">AGRO<span>BIOME</span></h1>
+                </div>
+            </div>
+            
+            <div class="header-right">
+                <div class="lang-selector" role="navigation" aria-label="Seletor de Idioma">
+                    <button id="btn-lang-pt" onclick="translateEngine('pt')" aria-label="Mudar idioma para Português" class="active-lang">PT</button>
+                    <button id="btn-lang-en" onclick="translateEngine('en')" aria-label="Switch language to English">EN</button>
+                </div>
+                <div class="accessibility-controls">
+                    <button id="btn-ai-narration" title="Ativar Narração de Tela por Áudio" aria-label="Ativar leitura assistiva de tela por voz" class="btn-ai-tool">🔊 Narrador: OFF</button>
+                    <button id="btn-font-decrease" title="Diminuir Texto" aria-label="Diminuir tamanho da fonte globalmente">A-</button>
+                    <button id="btn-font-increase" title="Aumentar Texto" aria-label="Aumentar tamanho da fonte globalmente">A+</button>
+                    <button id="btn-contrast" title="Alternar Alto Contraste" aria-label="Ativar modo de alto contraste">🌓</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav id="sidebar-menu" class="sidebar" aria-hidden="true" aria-label="Menu Principal">
+        <button id="menu-close" class="btn-close-menu" aria-label="Fechar menu lateral">&times;</button>
+        <ul class="nav-links">
+            <li><a href="#inicio-hero" class="nav-item-link" data-i18n="nav-home">🏠 Início</a></li>
+            <li><a href="#arcade-zone" class="nav-item-link" data-i18n="nav-arcade">> Área Infantil: Eco-Arcade</a></li>
+            <li><a href="#feed-comunidade" class="nav-item-link" data-i18n="nav-comments">> Mural dos Agricultores</a></li>
+            <li><a href="#inovacoes" class="nav-item-link" data-i18n="nav-tech">> Tecnologia Aplicada</a></li>
+            <li><a href="#diretrizes" class="nav-item-link" data-i18n="nav-facts">> Fatos Ecológicos</a></li>
+            <li><a href="#metricas" class="nav-item-link" data-i18n="nav-metrics">> Painel de Métricas</a></li>
+            <li><a href="#avaliacao" class="nav-item-link" data-i18n="nav-rating">> Avaliar Plataforma</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" tabindex="-1">
+        
+        <section id="inicio-hero" class="reveal split-hero-section">
+            <div class="split-container">
+                <div class="split-left-brand">
+                    <div class="brand-visual-box game-border-blue">
+                        <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=800&q=80" alt="Maquinário agrícola automatizado coletando dados e operando de forma inteligente com telemetria digital" class="hero-main-image">
+                        <div class="embedded-logo-graphic">
+                            <h2 class="graffiti-3d-huge">AGRO<br><span class="highlight-cyan">TECH</span></h2>
+                            <div class="pulsing-node">[ ECO INTEGRATION CORE SYSTEM ]</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="split-right-content">
+                    <p class="game-tag" data-i18n="manifesto-tag">[ FUNDAMENTAÇÃO CIENTÍFICA / PRESERVAÇÃO PLANETÁRIA ]</p>
+                    <h3 data-i18n="manifesto-title" class="section-title-main">Por que a Tecnologia no Campo é Vital para a Sobrevivência do Planeta?</h3>
+                    
+                    <article class="manifesto-body-text">
+                        <p data-i18n="manifesto-text-1">
+                            A fusão entre tecnologia de ponta e o agronegócio não se limita a métricas de ganho produtivo; ela constitui a barreira mais importante para a regeneração ecológica global e a manutenção da vida humana. Diante do esgotamento severo de recursos hídricos e do avanço das mudanças climáticas, os métodos tradicionais de cultivo tornaram-se inviáveis. A introdução de inteligência analítica no campo é o que impede a destruição massiva de solos produtivos e o avanço sobre biomas nativos.
+                        </p>
+                        <p data-i18n="manifesto-text-2">
+                            Ao integrarmos inteligência artificial, robótica automatizada e monitoramento de satélite, tornamos possível a aplicação milimétrica de recursos. Isso significa erradicar o desperdício de água com microirrigação ligada a sensores subterrâneos, reduzir drasticamente as emissões de gases de efeito estufa e reabilitar áreas degradadas. Manter a seriedade analítica e técnica unida às práticas ecológicas é o único caminho capaz de garantir o desenvolvimento socioeconômico sem comprometer a integridade vital da Terra.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="arcade-zone" class="reveal section-padding">
+            <div class="container">
+                <p class="game-tag" data-i18n="game-tag">[ ÁREA INFANTIL EDUCACIONAL ]</p>
+                <h2 data-i18n="game-title">Missão Protetor Ambiental: Salve a Plantação</h2>
+                <p class="section-desc" data-i18n="game-desc">Instruções de Jogo: Escolha seu herói ecológico. No computador, use as teclas [A / D] ou [Setas] para andar e [ESPAÇO] para pular. No celular ou tablet, use os botões arcade virtuais que aparecem logo abaixo da tela. Desvie das nuvens de agrotóxicos químicos (quadrados magenta) e colete as esferas de energia sustentável (círculos ciano). A dificuldade aumenta progressivamente!</p>
+                
+                <div class="game-settings-bar game-border-blue">
+                    <div class="setting-control-group">
+                        <label for="game-palette-select">Paleta de Cores:</label>
+                        <select id="game-palette-select" aria-label="Mudar esquema de cores do jogo">
+                            <option value="neon">Arcade Neon (Padrão)</option>
+                            <option value="cyber">Cyber Matrix</option>
+                            <option value="retro">Clássico GameBoy</option>
+                        </select>
+                    </div>
+                    <div class="setting-control-group">
+                        <button id="btn-toggle-audio" class="btn-game-utility" aria-label="Ligar ou desligar música chiptune">🎵 Áudio: OFF</button>
+                        <button id="btn-fullscreen-game" class="btn-game-utility" aria-label="Colocar o jogo em modo tela cheia">🔲 Tela Cheia</button>
+                    </div>
+                </div>
+
+                <div id="char-selection-panel" class="char-selector-box game-border-mint">
+                    <h3 data-i18n="game-choose-hero" style="font-family:'Share Tech Mono', monospace; margin-bottom:15px; color:var(--game-yellow);">ESCOLHA SEU AGENTE BIOLÓGICO:</h3>
+                    <div class="char-buttons-container">
+                        <button id="btn-char-water" aria-label="Selecionar Gota d'Água Reciclável">💦 Gota d'Água</button>
+                        <button id="btn-char-leaf" aria-label="Selecionar Bio-Folha Regenerativa">🍃 Bio-Folha</button>
+                        <button id="btn-char-globe" aria-label="Selecionar Planeta Protegido">🌏 Eco-Terra</button>
+                    </div>
+                </div>
+
+                <div id="game-frame-wrapper" class="game-frame game-border-pink hidden">
+                    <div id="game-stats-display">
+                        <span id="game-score">ENERGIA LIMPA: 0/5</span>
+                        <span id="game-level-view">DIFICULDADE: FÁCIL</span>
+                        <span id="game-lives">INTEGRIDADE: ❤️❤️❤️</span>
+                    </div>
+                    <div id="canvas-container">
+                        <canvas id="gameCanvas" width="800" height="350"></canvas>
+                    </div>
+                    
+                    <div id="mobile-game-controls" class="arcade-touch-pad">
+                        <button id="touch-left" class="btn-arcade-dir" aria-label="Mover para Esquerda">◀</button>
+                        <button id="touch-jump" class="btn-arcade-action" aria-label="Pular Plataforma">PULAR</button>
+                        <button id="touch-right" class="btn-arcade-dir" aria-label="Mover para Direita">▶</button>
+                    </div>
+                </div>
+
+                <div id="reward-panel" class="hidden game-border-mint reward-box">
+                    <h3 data-i18n="reward-congratulations">🏆 CERTIFICADO DE ECO-HERÓI CONQUISTADO!</h3>
+                    <p data-i18n="reward-desc">Incrível! Você neutralizou a dispersão de defensivos químicos, protegeu a plantação e coletou energia limpa. Assista abaixo ao documentário sobre biotecnologia agrícola:</p>
+                    
+                    <div class="video-container-with-ai">
+                        <div class="video-wrapper game-border-blue">
+                            <video id="eco-documentary-video" src="https://assets.mixkit.co/videos/preview/mixkit-smart-agriculture-technology-41838-large.mp4" controls preload="metadata" aria-label="Vídeo informativo sobre automação sustentável no agronegócio"></video>
+                        </div>
+                        <div id="ai-subtitles-box" class="ai-captions-overlay" aria-live="assertive" aria-atomic="true">
+                            [Aguardando o início do vídeo para sincronizar as legendas técnicas...]
+                        </div>
+                    </div>
+
+                    <div class="reward-action-container">
+                        <button id="btn-action-cert" class="btn-game-action" data-i18n="reward-btn">IMPRIMIR CERTIFICADO DIGITAL</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feed-comunidade" class="reveal section-padding">
+            <div class="container">
+                <p class="game-tag" data-i18n="feed-tag">[ RELATOS TÉCNICOS DE CAMPO ]</p>
+                <h2 data-i18n="feed-title">Mural Interativo da Comunidade Agrícola</h2>
+                
+                <div class="forum-form-box game-border-blue">
+                    <form id="agro-post-form">
+                        <div class="form-grid">
+                            <input type="text" id="author-name" placeholder="Nome do Produtor ou da Fazenda" required aria-label="Seu Nome">
+                            <select id="media-type" aria-label="Tipo de mídia do depoimento">
+                                <option value="text">Apenas Texto informativo</option>
+                                <option value="image">Texto com Imagem Demonstrativa (Link/URL)</option>
+                            </select>
+                        </div>
+                        <textarea id="post-text" placeholder="Compartilhe como o uso de tecnologias sustentáveis ou biológicas reduziu seus custos e salvou o solo..." required aria-label="Texto do depoimento"></textarea>
+                        <input type="url" id="media-url" placeholder="Cole o link (URL) da imagem da sua lavoura aqui..." class="hidden" aria-label="Link da imagem">
+                        <button type="submit" class="btn-game-action" data-i18n="feed-submit">PUBLICAR RELATO NO MURAL</button>
+                    </form>
+                </div>
+
+                <div id="dynamic-feed-container" class="feed-grid"></div>
+            </div>
+        </section>
+
+        <section id="inovacoes" class="reveal section-padding">
+            <div class="container">
+                <p class="game-tag" data-i18n="tech-tag">[ INFRAESTRUTURA DIGITAL APLICADA ]</p>
+                <h2 data-i18n="tech-title">Sistemas Tecnológicos Aplicados ao Manejo de Precisão</h2>
+                
+                <div class="carousel-container">
+                    <button id="carousel-prev" class="carousel-arrow" aria-label="Tecnologia anterior">❮</button>
+                    <div class="carousel-window">
+                        <div id="carousel-track" class="carousel-track"></div>
+                    </div>
+                    <button id="carousel-next" class="carousel-arrow" aria-label="Próxima tecnologia">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="diretrizes" class="reveal section-padding">
+            <div class="container">
+                <p class="game-tag" data-i18n="facts-tag">[ ANÁLISE DE IMPACTO AMBIENTAL ]</p>
+                <h2 data-i18n="facts-title">Mapeamento de Desafios Reais e Resoluções Práticas</h2>
+                
+                <div class="tabs-wrapper game-border-mint">
+                    <div id="tabs-header-list" class="tabs-header" role="tablist" aria-label="Abas Informativas"></div>
+                    <div id="tabs-content-pane" class="tabs-body"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="metricas" class="reveal section-padding">
+            <div class="container">
+                <p class="game-tag" data-i18n="metrics-tag">[ COMPARATIVO QUANTITATIVO ]</p>
+                <h2 data-i18n="metrics-title">Balanço Ambiental: Modelo Tecnológico Sustentável vs Convencional</h2>
+                
+                <div id="metrics-charts-grid" class="charts-container-grid"></div>
+            </div>
+        </section>
+
+        <section id="avaliacao" class="reveal section-padding">
+            <div class="container">
+                <p class="game-tag" data-i18n="rating-tag">[ VALIDACAO DE UX ]</p>
+                <h2 data-i18n="rating-title">Avalie o Nível Informativo Desta Plataforma</h2>
+                
+                <div class="rating-box game-border-blue">
+                    <p data-i18n="rating-desc">Seu feedback valida o alcance e a clareza das informações exibidas:</p>
+                    <div class="star-rating-row" role="radiogroup" aria-label="Avaliação por estrelas">
+                        <button type="button" class="star-btn" data-value="1" aria-label="1 Estrela">★</button>
+                        <button type="button" class="star-btn" data-value="2" aria-label="2 Estrelas">★</button>
+                        <button type="button" class="star-btn" data-value="3" aria-label="3 Estrelas">★</button>
+                        <button type="button" class="star-btn" data-value="4" aria-label="4 Estrelas">★</button>
+                        <button type="button" class="star-btn" data-value="5" aria-label="5 Estrelas">★</button>
+                    </div>
+                    <p id="rating-status-text" class="rating-status" data-i18n="rating-not-rated">Nenhuma avaliação enviada até o momento.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 AgroTech Analytics. Padrões de Acessibilidade WCAG 2.1 garantidos.</p>
+        <p class="dev-credits">
+            Desenvolvido por: <strong>Isabelly Pereira Signorin</strong>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
